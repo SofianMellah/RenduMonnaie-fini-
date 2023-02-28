@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendu monnaie</title>
+</head>
+<body>
+    <h1>Exercice 4 :</h1><br>
+    <p> Créer une application qui calcule la monnaie à rendre.
+        Saisissez le montant du ticket à payer.<br>
+        Saisissez la somme que le client a donné.<br>
+        Simulez la remise de la monnaie en affichant le nombre de billet de "10 Euros", "5 Euros" et de pièces de "1 Euro".<br>
+        Nous partons du principe que les montants sont des entiers.</p> <br><br>
+    <label for="">Somme donné par la cliente</label> <input id="SommeClient" type="number"><br><br><br>
+    <label for="">Saisissez le montant du ticket</label> <input id="Montantticket" type="number"><br><br><br>
+    <button onclick=Rendu()>Calculer</button><br><br><br>
+    <label for="">Le rendu monnaie est de : </label> <input id="Montantarendre" type="text"> €<br><br><br>
+    <label for="">Nombre de billets de 10€</label> <input id="billetsdix" type="text">
+    <label for="">Nombre de billets de 5€</label> <input id="billetscinq" type="text">
+    <label for="">Nombre de pièces de 1€</label> <input id="piecesun" type="text">
+    <script src="./exo4.js"></script>
+</body>
+</html>
